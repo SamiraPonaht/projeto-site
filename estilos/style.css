@@ -8,9 +8,52 @@ body {
 }
 
 main {
-    background-color: wheat;
+    background-color: white;
     width: 500px;
     margin: auto;
-    padding: 10px;
+    padding: 10px 0px 0px 0px;
     box-shadow: 3px 3px rgb(0, 0, 0.473);
+}
+
+p {
+     margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 2em;
+    color: rgbd(58, 0, 112);
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: rgbd(58, 0, 112);
+}
+
+img.lado {
+    float: right;
+    max-width: 120px;
+    margin-left: 10px;
+    height: auto;
+}
+
+img.logo {
+    float: right;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgbd(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgbd(26, 26, 255);
 }
